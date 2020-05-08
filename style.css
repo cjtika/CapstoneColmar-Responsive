@@ -1,0 +1,323 @@
+body {
+    font-size: 16px;
+}
+/* header */
+.header-box {
+    display: inline-flex;
+    width: 100%;
+    height: 64px;
+    padding-left: 24px;
+}
+
+#logo {
+    padding-top: 20px;
+    margin-right: 5px;
+}
+
+h1 {
+    font-size: 32px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+h1 span {
+    color: gray;
+}
+nav {
+    width: 100%;
+    text-align: right;
+    padding-top: 10px;
+    margin-right: 24px;
+}
+
+header nav ul {
+    display: inline-flex;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    margin: 0 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* learn everyday */
+#learn {
+    background-color: #bebebef1;
+    width: 100%;
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+.box-1 {
+    width: 40%;
+    text-align: left;
+    margin-top: 9%;
+    padding-left: 24px;
+
+
+}
+
+.box-1 h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    color: rgb(70, 70, 70);
+    line-height: 3rem;
+}
+
+.box-1 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: rgb(70, 70, 70);
+    line-height: 3rem;
+}
+
+.box-1 button {
+    width: 90%;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: whitesmoke;
+    background-color: rgb(70, 70, 70);
+    border: rgb(70, 70, 70) solid;
+}
+/* practice */
+#practice {
+    background-color: white;
+    width: 100%;
+    padding-left: 24px;
+    padding-top: 32px;
+    display: inline-flex;
+}
+
+.quote {
+    width: 60%;
+    padding-bottom: 32px;
+}
+
+.quote img {
+    max-width: 100%;
+}
+
+.quote h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    color: rgb(70, 70, 70);
+    margin-top: 32px;
+}
+
+.quote p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: rgb(70, 70, 70);
+    margin-top: 24px;
+}
+
+.quote h6 {
+    margin-top: 3rem;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+/* activity */
+.activity {
+    margin-left: 24px;
+    width: 40%;
+    border-left: solid 1px #bebebef1;
+    padding-left: 1px;
+}
+
+.activity aside {
+    display: inline-flex;
+    align-items: flex-start;
+}
+.activity aside:last-child {
+    background-color: #bebebef1;
+}
+
+.activity img {
+    width: 35%;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.activity .info {
+    width: 100%;
+    padding-left: 32px;
+    padding-top: 16px;
+    margin-top: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(70, 70, 70);
+}
+
+.activity .info h4 {
+    font-size: 24px;
+}
+
+.activity .info p {
+    font-size: 16px;
+}
+/* start learning */
+
+#thumb-box {
+    background-color: #bebebef1;
+    width: 100%;
+}
+
+#thumb-box h2 {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
+
+.thumbnail {
+    width: 30%;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail h4 {
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.thumbnail h5 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: 100;
+    color: rgb(70, 70, 70)
+}
+
+.thumbnail p {
+    margin-bottom: 24px;
+    color: rgb(70, 70, 70);
+    padding-right: 16px;
+}
+
+
+.thumbnail h4, .thumbnail h5, .thumbnail p {
+    padding-left: 16px;
+}
+
+/* thesis */
+#thesis {
+    width: 100%;
+}
+
+#thesis h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.master-box {
+    display: inline-flex;
+}
+
+.video-box {
+    width: 60%;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.video-box video {
+    width: 100%;
+    height: auto;
+}
+
+.video-box h4 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    
+}
+
+.video-box p {
+    padding-bottom: 32px;
+    font-size: 16px;
+    width: 80%;
+    color: rgb(70, 70, 70);
+}
+
+#thesis article {
+    width: 40%;
+}
+
+.side-article {
+    display: inline-flex;
+    width: 100%;
+}
+
+.side-article:first-child {
+    background-color: #bebebef1;
+}
+
+.side-article img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+.article-news {
+    width: 65%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.article-news h4 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.article-news p {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(70, 70, 70);
+}
+/* footer */
+footer {
+    padding-top: 16px;
+    padding-left: 24px;
+    color: rgb(70, 70, 70);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    display: inline-flex;
+    width: 99%;
+    padding-bottom: 32px;
+    border-top: solid 1px #bebebef1;
+}
+
+footer p {
+    width: 50%;
+}
+
+.footer-nav {
+    width: 50%;
+}
+
+.footer-nav a {
+    margin-right: 24px;
+    text-decoration: none;
+}
