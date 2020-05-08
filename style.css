@@ -202,12 +202,26 @@ li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
 }
+/* mobile mode */
+@media only screen and (max-width: 600px) {
+    .quote {
+        display: none;
+    }
+}
 /* activity */
 .activity {
     margin-left: 24px;
     width: 40%;
     border-left: solid 1px #bebebef1;
     padding-left: 1px;
+}
+
+.deco-bottom {
+    border-bottom: solid 1px #bebebef1;
+}
+
+.deco-top {
+    border-top: solid 1px #bebebef1;
 }
 
 .activity aside {
@@ -239,6 +253,19 @@ li {
 
 .activity .info p {
     font-size: 16px;
+}
+/* mobile mode */
+@media only screen and (max-width: 600px) {
+    #practice {
+        padding-left: 0;
+        border: blue solid;
+    }
+    .activity {
+        border: solid red 2px;
+        width: 100%;
+        display: block;
+        margin-left: 0;
+    }
 }
 /* start learning */
 
