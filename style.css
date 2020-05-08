@@ -229,8 +229,9 @@ li {
     display: inline-flex;
     align-items: flex-start;
 }
-.activity aside:last-child {
-    background-color: #bebebef1;
+
+.color-me {
+    background-color:#bebebef1;
 }
 
 .activity img {
