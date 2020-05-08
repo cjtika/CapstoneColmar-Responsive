@@ -298,7 +298,6 @@ li {
     .act-mobile .info:last-child {
         padding-bottom: 32px;
         margin-bottom: 0;
-        border: olive solid 1px;
     }
 }
 /* start learning */
@@ -314,6 +313,14 @@ li {
     padding-bottom: 32px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 32px;
+}
+
+#six-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 72px;
+    padding-left: 72px;
+    justify-content: center;
 }
 
 .thumbnail {
@@ -352,6 +359,55 @@ li {
 
 .thumbnail h4, .thumbnail h5, .thumbnail p {
     padding-left: 16px;
+}
+
+/* mobile mode */
+@media only screen and (max-width: 600px) {
+    #thumb-box {
+        background-color: white;
+        width: 100%;
+
+    }
+
+    #thumb-box h2 {
+        margin-top: 32px;
+        margin-bottom: 16px;
+        padding: 0;
+        color: rgb(70, 70, 70);
+    }
+
+    #six-box {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .thumbnail {
+        background-color: #bebebef1;
+        width: 96%;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        padding-left: 16px;
+        margin-bottom: 8px;
+    }
+
+    .thumbnail:last-child {
+        margin-bottom: 32px;
+    }
+
+    .thumbnail h4 {
+        margin: 0;
+        padding: 0;
+        color: rgb(70, 70, 70);
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .thumbnail img, .thumbnail h5, .thumbnail p {
+        display: none;
+    }
+
 }
 
 /* thesis */
