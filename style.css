@@ -9,6 +9,11 @@ body {
     padding-left: 24px;
 }
 
+.header-box a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
 .logo {
     padding-top: 20px;
     margin-right: 5px;
@@ -76,9 +81,17 @@ li {
     display: flex;
 }
 
+.banner-box {
+    width: 60%;
+}
+
 #banner {
     width: 100%;
     height: auto;
+}
+
+.learn-box {
+    width: 80%;
 }
 
 .box-1 {
@@ -114,6 +127,43 @@ li {
     background-color: rgb(70, 70, 70);
     border: rgb(70, 70, 70) solid;
 }
+/* mobile mode */
+@media only screen and (max-width: 600px) {
+    #learn {
+        display: block;
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    .banner-box {
+        width: 100%;
+    }
+
+    .box-1 {
+        width: 90%;
+        padding: 0;
+        margin: 32px auto
+    }
+
+    .learn-box {
+        width: 100%;
+    }
+
+    .box-1 h2 {
+        font-size: 38px;
+    }
+
+    .box-1 p {
+        font-size: 24px;
+        line-height: 2rem;
+    }
+
+    .box-1 button {
+        font-size: 24px;
+        width: 100%;
+    }
+}
+
 /* practice */
 #practice {
     background-color: white;
