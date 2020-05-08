@@ -254,17 +254,51 @@ li {
 .activity .info p {
     font-size: 16px;
 }
+
+.act-mobile {
+    display: none;
+}
 /* mobile mode */
 @media only screen and (max-width: 600px) {
     #practice {
         padding-left: 0;
-        border: blue solid;
+        width: 100%;
     }
     .activity {
-        border: solid red 2px;
         width: 100%;
         display: block;
         margin-left: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+        border: none;
+    }
+
+    .activity aside {
+        display: none;
+    }
+
+    .act-mobile {
+        display: block;
+        display: 100%;
+    }
+
+    .act-mobile img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .act-mobile .info {
+        width: 80%;
+        padding-left: 16px;
+        margin-top: 0;
+        margin-bottom: 64px;
+        line-height: 32px;
+    }
+
+    .act-mobile .info:last-child {
+        padding-bottom: 32px;
+        margin-bottom: 0;
+        border: olive solid 1px;
     }
 }
 /* start learning */
