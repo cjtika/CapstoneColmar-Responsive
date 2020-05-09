@@ -12,7 +12,7 @@ body {
 
 .header-box a {
     text-decoration: none;
-    color: rgb(70, 70, 70);
+    color: #1d3c45;
 }
 
 .logo {
@@ -22,13 +22,13 @@ body {
 
 h1 {
     font-size: 32px;
-    color: black;
+    color: #1d3c45;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
 }
 
 h1 span {
-    color: gray;
+    color: #d26019;
 }
 nav {
     width: 100%;
@@ -74,7 +74,7 @@ li {
 }
 /* learn everyday */
 #learn {
-    background-color: #bebebef1;
+    background-color: #fff1e1;
     width: 100%;
     padding-left: 24px;
     padding-top: 32px;
@@ -107,14 +107,14 @@ li {
 .box-1 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 38px;
-    color: rgb(70, 70, 70);
+    color: #1d3c45;
     line-height: 3rem;
 }
 
 .box-1 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
-    color: rgb(70, 70, 70);
+    color: #1d3c45;
     line-height: 3rem;
 }
 
@@ -124,9 +124,9 @@ li {
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
-    color: whitesmoke;
-    background-color: rgb(70, 70, 70);
-    border: rgb(70, 70, 70) solid;
+    color: #fff1e1;
+    background-color: #d26019;
+    border: #d26019 solid;
 }
 /* mobile mode */
 @media only screen and (max-width: 600px) {
@@ -186,14 +186,14 @@ li {
 .quote h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 38px;
-    color: rgb(70, 70, 70);
+    color: #1d3c45;
     margin-top: 32px;
 }
 
 .quote p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    color: rgb(70, 70, 70);
+    color: #1d3c45;
     margin-top: 24px;
 }
 
@@ -202,6 +202,7 @@ li {
     margin-bottom: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
+    color: #1d3c45;
 }
 /* mobile mode */
 @media only screen and (max-width: 600px) {
@@ -213,16 +214,16 @@ li {
 .activity {
     margin-left: 24px;
     width: 40%;
-    border-left: solid 1px #bebebef1;
+    border-left: solid 1px #fff1e1;
     padding-left: 1px;
 }
 
 .deco-bottom {
-    border-bottom: solid 1px #bebebef1;
+    border-bottom: solid 1px #fff1e1;
 }
 
 .deco-top {
-    border-top: solid 1px #bebebef1;
+    border-top: solid 1px #fff1e1;
 }
 
 .activity aside {
@@ -231,7 +232,7 @@ li {
 }
 
 .color-me {
-    background-color:#bebebef1;
+    background-color: #fff1e1;
 }
 
 .activity img {
@@ -246,7 +247,7 @@ li {
     padding-top: 16px;
     margin-top: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(70, 70, 70);
+    color: #1d3c45;
 }
 
 .activity .info h4 {
@@ -305,7 +306,7 @@ li {
 /* start learning */
 
 #thumb-box {
-    background-color: #bebebef1;
+    background-color: #fff1e1;
     width: 100%;
 }
 
@@ -315,6 +316,7 @@ li {
     padding-bottom: 32px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 32px;
+    color: #1d3c45;
 }
 
 #six-box {
@@ -342,6 +344,7 @@ li {
     margin-top: 16px;
     font-size: 24px;
     font-weight: 550;
+    color: #1d3c45;
 }
 
 .thumbnail h5 {
@@ -349,12 +352,12 @@ li {
     margin-bottom: 8px;
     font-size: 22px;
     font-weight: 100;
-    color: rgb(70, 70, 70)
+    color: #1d3c45;
 }
 
 .thumbnail p {
     margin-bottom: 24px;
-    color: rgb(70, 70, 70);
+    color: #1d3c45;
     padding-right: 16px;
 }
 
@@ -378,7 +381,7 @@ li {
     #thumb-box h2 {
         margin-bottom: 16px;
         padding: 0;
-        color: rgb(70, 70, 70);
+        color: #1d3c45;
     }
 
     #six-box {
@@ -389,7 +392,7 @@ li {
     }
 
     .thumbnail {
-        background-color: #bebebef1;
+        background-color: lightslategray;
         width: 96%;
         padding-top: 16px;
         padding-bottom: 24px;
@@ -404,7 +407,7 @@ li {
     .thumbnail h4 {
         margin: 0;
         padding: 0;
-        color: rgb(70, 70, 70);
+        color: #1d3c45;
         font-size: 24px;
         font-weight: 300;
     }
@@ -426,6 +429,7 @@ li {
     font-size: 32px;
     margin-top: 32px;
     margin-bottom: 32px;
+    color: #1d3c45;
 }
 
 .master-box {
@@ -449,14 +453,14 @@ li {
     margin-top: 24px;
     margin-bottom: 8px;
     font-size: 24px;
-    
+    color: #1d3c45;
 }
 
 .video-box p {
     padding-bottom: 32px;
     font-size: 16px;
     width: 80%;
-    color: rgb(70, 70, 70);
+    color: #1d3c45;
 }
 
 #thesis article {
@@ -469,7 +473,7 @@ li {
 }
 
 .side-article:first-child {
-    background-color: #bebebef1;
+    background-color: #fff1e1;
 }
 
 .side-article img {
@@ -486,12 +490,13 @@ li {
 .article-news h4 {
     font-size: 24px;
     font-weight: 300;
+    color: #1d3c45;
 }
 
 .article-news p {
     font-size: 16px;
     font-weight: 300;
-    color: rgb(70, 70, 70);
+    color: #1d3c45;
 }
 
 @media only screen and (max-width: 600px) {
@@ -531,7 +536,7 @@ li {
 footer {
     padding-top: 16px;
     padding-left: 24px;
-    color: rgb(70, 70, 70);
+    color: #1d3c45;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     display: inline-flex;
